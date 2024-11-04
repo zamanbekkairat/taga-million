@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бинго ТОЙ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="out-of-header">
+        <div class="container">
+            <section class="welcome">
+                <div class="welcome-block">
+
+                    <div class="logo">
+                        <img src="img/logo.svg" alt="">
+                    </div>
+
+                    <div class="welcome-text">
+                        <h1>МЕГА тираж с самым большим призовым фондом!</h1>
+                        <p>Купи лотонабор <b>Мега розыгрыш</b>
+                            <br>и участвуй в розыгрыше
+                            <br><b>мега подарков</b></p>
+                    </div>
+                    <a href="javascript:void(0)" class="landing-btn js-scroll-btn">подробнее </a>
+                </div>
+
+                <div class="visual">
+                    <img src="img/visual.png" srcset="img/visual-2x.png 2x" alt="visual">
+                </div>
+            </section>
+
+            <div class="landing js-content" data-current-tab="offline">
+                <section class="terms">
+                    <div>
+                        <nav class="tabs-wrapper">
+                            <ul class="landing-tabs">
+                                <li class="landing-tabs__item active js-tab-parent tab-online">
+                                    <a href="javascript:void(0)" class="js-tab" data-goto="online">Онлайн&minus;билет</a>
+                                </li>
+                                <li class="landing-tabs__item js-tab-parent active">
+                                    <a href="javascript:void(0)" class="js-tab" data-goto="offline">Бумажный&nbsp;билет</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <h2>Как принять участие?</h2>
+                    <div class="desktop">
+                        <ul class="terms-box" data-current-tab="online">
+                            <li class="terms-box__item" data-tab="online">
+                                <img src="img/ticket.png" srcset="img/ticket-2x.png 2x" alt="">
+                                <p>Приобрести <br>ЛотоНабор “Мега&nbsp;розыгрыш” <br>на сайте sz.kz</p>
+                            </li>
+
+                            <li class="terms-box__item" data-tab="offline">
+                                <img src="img/ticket.png" srcset="img/ticket-2x.png 2x" alt="">
+                                <p>Приобрести билет BingoТой c&nbsp;пятью лотерейными комбинациями</p>
+                            </li>
+
+                            <li class="terms-box__item" data-tab="offline">
+                                <img src="img/phone.png" srcset="img/phone-2x.png 2x" alt="">
+                                <p>Зарегистрировать номер билета на&nbsp;промо странице сайта</p>
+                            </li>
+
+                            <li class="terms-box__item">
+                                <img src="img/youtube.png" srcset="img/youtube-2x.png 2x" alt="reg-map icon">
+                                <p>Следить за&nbsp;розыгрышем в&nbsp;прямом эфире <a href="https://www.youtube.com/c/sattyzhuldyz" target="_blank"><b>YouTube</b></a></p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mobile">
+                        <div data-tab="online">
+                            <div class="terms-boxes swiper-container">
+                                <ul class="terms-boxes-list swiper-wrapper" data-current-tab="online">
+                                    <li class="swiper-slide">
+                                        <div class="terms-boxes-list__item">
+                                            <picture>
+                                                <img src="img/ticket.png" srcset="img/ticket-2x.png 2x" alt="">
+                                            </picture>
+                                            <p>Приобрести ЛотоНабор “Мега розыгрыш” на&nbsp;сайте sz.kz</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="swiper-slide">
+                                        <div class="terms-boxes-list__item">
+                                            <picture>
+                                                <img src="img/youtube.png" srcset="img/youtube-2x.png 2x" alt="reg-map icon">
+                                            </picture>
+
+                                            <p>Следить за&nbsp;розыгрышем в&nbsp;прямом эфире <a href="https://www.youtube.com/c/sattyzhuldyz" target="_blank"><b>YouTube</b></a> канала</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+
+                        <div data-tab="offline">
+                            <div class="terms-boxes swiper-container">
+                                <ul class="terms-boxes-list swiper-wrapper">
+                                    <li class="swiper-slide">
+                                        <div class="terms-boxes-list__item">
+                                            <picture>
+                                                <img src="img/ticket.png" srcset="img/ticket-2x.png 2x" alt="">
+                                            </picture>
+                                            <p>Приобрести билет BingoТой c&nbsp;пятью лотерейными комбинациями</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="swiper-slide">
+                                        <div class="terms-boxes-list__item">
+                                            <picture>
+                                                <img src="img/phone.png" srcset="img/phone-2x.png 2x" alt="">
+                                            </picture>
+                                            <p>Зарегистрировать номер билета на&nbsp;промо странице сайта</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="swiper-slide">
+                                        <div class="terms-boxes-list__item">
+                                            <picture>
+                                                <img src="img/youtube.png" srcset="img/youtube-2x.png 2x" alt="reg-map icon">
+                                            </picture>
+                                            <p>Следить за&nbsp;розыгрышем в&nbsp;прямом эфире <a href="https://www.youtube.com/c/sattyzhuldyz" target="_blank"><b>YouTube</b></a> канала</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="/game?gameid=11&ispack=true" class="landing-btn" data-tab="online">купить билет</a>
+                </section>
+
+                <section class="prize">
+                    <h2>Что будет разыгранно?</h2>
+                    <div class="mobile">
+                        <div class="prize-blocks swiper-container">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <div class="prize-block">
+                                        <div class="prize-img">
+                                            <img src="img/car.png" srcset="img/car-2x.png 2x" alt="">
+                                        </div>
+                                        <p>Автомобиль</p>
+                                    </div>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <div class="prize-block">
+                                        <div class="prize-img">
+                                            <img src="img/iphone.png" srcset="img/iphone-2x.png 2x" alt="">
+                                        </div>
+                                        <p>5 iPhone 14</p>
+                                    </div>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <div class="prize-block">
+                                        <div class="prize-img">
+                                            <img src="img/money.png" srcset="img/money-2x.png 2x" alt="">
+                                        </div>
+                                        <p><span>4 денежных призов</span>
+                                            <br>по 1 000 000 ₸</p>
+                                    </div>
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <div class="prize-block">
+                                        <div class="prize-img">
+                                            <img src="img/money.png" srcset="img/money-2x.png 2x" alt="">
+                                        </div>
+                                        <p><span>5 денежных призов</span>
+                                            <br>по 500 000 ₸</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div class="desktop">
+                        <div class="prize-blocks">
+                            <div class="prize-block">
+                                <div class="prize-img">
+                                    <img src="img/car.png" srcset="img/car-2x.png 2x" alt="">
+                                </div>
+                                <p>Автомобиль</p>
+                            </div>
+                            <div class="prize-block">
+                                <div class="prize-img">
+                                    <img src="img/iphone.png" srcset="img/iphone-2x.png 2x" alt="">
+                                </div>
+                                <p>5 iPhone 14</p>
+                            </div>
+                            <div class="prize-block">
+                                <div class="prize-img">
+                                    <img src="img/money.png" srcset="img/money-2x.png 2x" alt="">
+                                </div>
+                                <p><span>4 денежных призов</span>
+                                    <br>по 1 000 000 ₸</p>
+                            </div>
+                            <div class="prize-block">
+                                <div class="prize-img">
+                                    <img src="img/money.png" srcset="img/money-2x.png 2x" alt="">
+                                </div>
+                                <p><span>5 денежных призов</span>
+                                    <br>по 500 000 ₸</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="maps" data-tab="offline">
+                    <div class="maps-text">
+                        <h2>Где купить билет?</h2>
+                        <p>
+                            Купить бумажные билеты лотереи вы можете в точках продаж.
+                            <br><br>С картой расположения наших точек продаж можно ознакомиться на специальной странице.
+                        </p>
+
+                        <a href="#" class="landing-btn">Карта точек продаж</a>
+                    </div>
+
+                    <div class="maps-img">
+                        <img src="img/maps-img.png" srcset="img/maps-img-2x.png 2x" alt="">
+                    </div>
+                </section>
+
+                <section class="form">
+                    <iframe allowtransparency="true" class="regis" width="100%" frameborder="0" src="https://www.szhuldyz.kz/forms/bingotoi-check/" scrolling="no"></iframe>
+
+                    <script>
+                        function gotResizeMessage(event) {
+                            console.log("got resize message: " + JSON.stringify(event.data))
+
+                            var matches = document.querySelectorAll('iframe'); // iterate through all iFrames on page
+                            for (i = 0; i < matches.length; i++) {
+                                if (matches[i].contentWindow == event.source)
+                                // found the iFrame that sent us a message
+                                {
+                                    console.log("found iframe that sent a message: " + matches[i].src)
+
+                                    //matches[i].width = Number( event.data.width )	 <--- we do not do anything with the page width for now
+                                    matches[i].height = Number(event.data.height)
+
+                                    return 1;
+                                }
+                            }
+                        }
+
+                        document.addEventListener("DOMContentLoaded", function() {
+
+                            window.addEventListener("message", gotResizeMessage, false)
+
+                        }); //on DOM ready
+                    </script>
+                </section>
+
+                <a href="#" target="_blank" class="list">
+                    <img src="img/list.svg" alt="">
+                    <p>Список участников</p>
+                </a>
+
+                <section class="faq">
+                    <h2>Часто задаваемые вопрсы?</h2>
+                    <div class="accordion">
+                        <p class="accordion__text">
+                            Нужно ли регистрировать билеты для участия в&nbsp;розыгрыше?
+                        </p>
+                        <div class="accordion__body">
+                            <p>Все билеты, купленные онлайн регистрируются автоматически. Билеты, купленные в розничных точках, необходимо зарегистрировать по форме выше</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <p class="accordion__text">
+                            Как получить выигрыш?
+                        </p>
+                        <div class="accordion__body">
+                            <p>Вам необходимо обратиться в&nbsp;контакт-центр по тел <a href="tel:+78000805200">8&nbsp;800&nbsp;080&nbsp;52&nbsp;00</a>, где вам подскажут, где получить выигрыш и&nbsp;какие документы необходимы для&nbsp;оформления</p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <p class="accordion__text">
+                            Могу я получить приз Автомобиль и&nbsp;iPhone в&nbsp;денежном эквиваленте?
+                        </p>
+                        <div class="accordion__body">
+                            <p>По письменному завялению вы&nbsp;можете получить выигрыш в&nbsp;денежном эквиваленте с&nbsp;удержанием суммы ИПН (для&nbsp;резидентов&nbsp;10%, для&nbsp;нерезидентов – 20%)</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <p class="accordion__text">
+                            Если я потерял чек, как быть?
+                        </p>
+                        <div class="accordion__body">
+                            <p>Выигрыши по акции выплачиваются только при условии предъявления чека, отвечающего условиям акции</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="important">
+                    <h2>Это важно знать:</h2>
+
+                    <div class="important-block">
+                        <img src="img/important-mark.svg" alt="">
+
+                        <div class="imporant-text">
+                            <p>Для получения выигрыша обратитесь в&nbsp;любую точку продажи или&nbsp;позвоните в&nbsp;контакт-центр по&nbsp;номеру <a href="tel:+78000805200">8&nbsp;800&nbsp;080&nbsp;52&nbsp;00</a></p>
+                        </div>
+                    </div>
+
+                    <div class="important-block">
+                        <img src="img/download.svg" alt="">
+
+                        <a href="" class="important-text" target="_blank">
+                            <p>Полные правила акции</p>
+                        </a>
+                    </div>
+                </section>
+
+                <div class="info">
+                    <div class="info-block">
+                        <img src="img/ex-mark.svg" alt="">
+
+                        <div class="info-text">
+                            <h2>Внимание!</h2>
+                            <p>Если предъявленный для получения выигрыша фискальный чек не&nbsp;соответствует условиям проведения акции, выигрыш по&nbsp;нему не&nbsp;выплачивается.</p>
+                            <p>Ответственность за&nbsp;правильность внесения номера фискального чека, а&nbsp;также сохранность его оригинала несет участник акции.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="responsibility">
+                    <p>
+                        СОЦИАЛЬНАЯ ОТВЕТСТВЕННОСТЬ:
+                        <br> 10% от операционного игрового дохода перечисляется на развитие отечественного спорта. 10% от операционного игрового дохода перечисляется в Общественный Фонд «Қазақстан Халқына».
+                    </p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
